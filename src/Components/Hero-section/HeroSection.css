@@ -1,0 +1,39 @@
+.text-side {
+  position: absolute;
+  top: 238px;
+  left: -48px;
+}
+.hero-text {
+  position: absolute;
+  top: 8px;
+  left: 131px;
+}
+.dot-img {
+  position: absolute;
+  top: 206px;
+}
+.sqr-img {
+  margin-left: 51px;
+  margin-top: 81px;
+}
+.story-img {
+  position: absolute;
+  top: 476px;
+  left: 135px;
+}
+.drop-img {
+  position: absolute;
+  top: 416px;
+  right: 0;
+}
+.black-img {
+  position: absolute;
+  bottom: -40px;
+  right: 105px;
+  width: 640px;
+}
+.black-box-text {
+  position: absolute;
+  bottom: 42px;
+  right: 290px;
+}

@@ -1,0 +1,14 @@
+.join-text {
+  position: absolute;
+  top: 30%;
+  left: 36%;
+  letter-spacing: 5px;
+}
+ 
+
+.group-input > :first-child {
+border-radius: 0 !important;
+}
+.group-input > :last-child {
+border-radius: 0 !important;
+}

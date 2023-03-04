@@ -1,0 +1,16 @@
+.about-text {
+  position: absolute;
+  bottom: -80px;
+  width: 84%;
+  left: 120px;
+}
+.title-box {
+  position: absolute;
+  top: 162px;
+  left: 126px;
+}
+.mint-date {
+  position: absolute;
+  top: 71%;
+  left: 45%;
+}
