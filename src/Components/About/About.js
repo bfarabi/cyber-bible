@@ -40,8 +40,10 @@ const About = () => {
       </div>
       <div className="relative flex justify-center">
         <img src={Mint} alt="" />
+        
         <p className='text-4xl mint-date text-white'>3/23/23</p>
       </div>
+      
 
     </div>
   );

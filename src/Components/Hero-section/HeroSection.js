@@ -4,7 +4,7 @@ import HeroImg from '../../Assets/Asset 11.png';
 import TextBg from '../../Assets/Asset 8.png';
 import DotImg from '../../Assets/Asset 10.png';
 import SqrImg from '../../Assets/Asset 15.png';
-import StoryImg from '../../Assets/Asset 52.png';
+import StoryImg from '../../Assets/Asset 94.png';
 import DropImg from '../../Assets/Asset 9.png';
 import BlackImg from '../../Assets/Asset 13.png';
 
