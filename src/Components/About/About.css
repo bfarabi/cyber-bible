@@ -3,6 +3,8 @@
   bottom: -80px;
   width: 84%;
   left: 120px;
+  font-family: "HallFetica";
+  text-align: justify;
 }
 .title-box {
   position: absolute;
@@ -12,5 +14,6 @@
 .mint-date {
   position: absolute;
   top: 71%;
-  left: 45%;
+  left: 42%;
+  font-family: "Orbitron";
 }

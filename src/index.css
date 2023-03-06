@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body {
+  height: 100%;
+}
+@font-face {
+  font-family: "cascadia";
+  src: local("Cascadia Mono PL Bold 700"),
+   url("./Fonts/Cascadia Mono PL Bold 700.otf") format("opentype");
+  font-weight: bold;
+  }
+@font-face {
+  font-family: "ExoRoman";
+  src: local("Exo-VariableFont_wght"),
+   url("./Fonts/Exo-VariableFont_wght.ttf") format("truetype");
+  }
+@font-face {
+  font-family: "HallFetica";
+  src: local("Hall Fetica"),
+   url("./Fonts/Hall Fetica.ttf") format("truetype");
+  }
+@font-face {
+  font-family: "Orbitron";
+  src: local("Orbitron-VariableFont_wght"),
+   url("./Fonts/Orbitron-VariableFont_wght.ttf") format("truetype");
+  }

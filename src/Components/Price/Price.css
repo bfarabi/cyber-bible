@@ -1,0 +1,20 @@
+.price-box {
+  position: absolute;
+  top: 82px;
+  left: 54px;
+}
+.public-box {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.benefit-logo {
+  position: absolute;
+  top: 60px;
+  left: 155px;
+}
+.benefit-box {
+  position: absolute;
+  top: 139px;
+  left: 215px;
+}

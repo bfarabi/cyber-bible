@@ -2,12 +2,12 @@ import React from 'react';
 import './About.css';
 import AboutLogo from '../../Assets/Asset 23.png';
 import Box from '../../Assets/Asset 20.png';
-import Mint from '../../Assets/Asset 26.png';
+import Mint from '../../Assets/Asset 26n.png';
 
 
 const About = () => {
   return (
-    <div className='pt-20 '>
+    <div className='container '>
       <img src={AboutLogo} alt="" />
       <div className='relative'>
         <p className='text-white about-text'>In a world where truth is becoming increasingly difficult to find, translations of the bible are being bought up and manipulated by

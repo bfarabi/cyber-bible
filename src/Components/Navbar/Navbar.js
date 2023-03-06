@@ -1,9 +1,10 @@
 import React from 'react';
 import Logo from '../../Assets/Asset 6n.png';
+import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <div className="navbar justify-between items-center absolute">
+    <div className="navbar container nav-bar justify-between items-center absolute">
       <div className="">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-white lg:hidden">
@@ -24,18 +25,19 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex text-white">
-        <ul className="menu menu-horizontal uppercase px-1">
+        <ul className="menu menu-horizontal uppercase px-1 pr-6">
           <li><a>story</a></li>
           <li><a>about</a></li>
           <li><a>mint</a></li>
           <li><a>benefits</a></li>
           <li><a>team</a></li>
           <li><a>faqs</a></li>
+          <li><a className="border text-white px-4">Lorem</a></li>
         </ul>
       </div>
-      <div className="">
-        <a className="border text-white px-4">Lorem</a>
-      </div>
+      {/* <div className="">
+        
+      </div> */}
     </div>
   );
 };

@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tw-elements';
+import './Fonts/Cascadia Mono PL Bold 700.otf';
+import './Fonts/Exo-VariableFont_wght.ttf';
+import './Fonts/Hall Fetica.ttf';
+import './Fonts/Orbitron-VariableFont_wght.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

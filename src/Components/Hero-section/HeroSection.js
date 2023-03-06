@@ -7,12 +7,12 @@ import SqrImg from '../../Assets/Asset 15.png';
 import StoryImg from '../../Assets/Asset 94.png';
 import DropImg from '../../Assets/Asset 9.png';
 import BlackImg from '../../Assets/Asset 13.png';
+import videoLg from '../../Assets/Asset 12.png';
 
 const HeroSection = () => {
   return (
-    <div className='hero-sec text-white flex justify-between relative'>
-      <div className="text-side">
-
+    <div className='hero-sec container text-white flex justify-end relative'>
+      <div className="text-side ">
         <img src={TextBg} alt="" />
         <h1 className='text-4xl hero-text'> THE LAST <br />
           TESTAMENT <br />
@@ -26,12 +26,14 @@ const HeroSection = () => {
       <div className="img-side ">
         <img className='hero-image' src={HeroImg} alt="" />
         <img className='drop-img' src={DropImg} alt="" />
+
+        <div className="video-thumb relative">
         <img className='black-img' src={BlackImg} alt="" />
-        <h1 className='text-4xl black-box-text'> THE LAST <br />
-          TESTAMENT <br />
-          OF HOPE <br />
-          IN A DARK <br />
-          WORLD</h1>
+        <img className='video-logo' src={videoLg} alt="" />
+
+        </div>
+        
+        
       </div>
     </div>
   );

@@ -5,16 +5,20 @@
 }
 .hero-text {
   position: absolute;
-  top: 8px;
-  left: 131px;
+  top: 20px;
+  left: 145px;
+  font-family: "ExoRoman";
+  font-weight: 200;
 }
 .dot-img {
   position: absolute;
   top: 206px;
+  opacity: 0.3;
 }
 .sqr-img {
   margin-left: 51px;
   margin-top: 81px;
+  opacity: 0.3;
 }
 .story-img {
   position: absolute;
@@ -28,12 +32,12 @@
 }
 .black-img {
   position: absolute;
-  bottom: -40px;
+  bottom: -10px;
   right: 105px;
-  width: 640px;
+  width: 55%;
 }
-.black-box-text {
+.video-logo {
   position: absolute;
-  bottom: 42px;
-  right: 290px;
+  bottom: 10rem;
+  right: 33%;
 }
