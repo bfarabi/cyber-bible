@@ -18,3 +18,79 @@
   top: 139px;
   left: 215px;
 }
+.logo-text {
+  position: absolute;
+  top: -24px;
+  left: 35%;
+}
+.arrow {
+  width: 100px;
+  height: 100px;
+}
+.benefit-text {
+  margin: 10px 0px;
+}
+.benefit-text p,
+.benefit-text small {
+  font-family: HallFetica;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Price-sec {
+    top: 170px;
+  }
+  .two-part {
+    flex-wrap: wrap;
+  }
+  .benefit-bg {
+    width: 100%;
+    height: 456px;
+  }
+  .benefit-logo {
+    position: relative;
+    top: -583px;
+    left: -39px;
+  }
+  .benefit-box {
+    position: absolute;
+    top: 92px;
+    left: 48px;
+    width: 100%;
+  }
+  .benefit-left,
+  .benefit-right {
+    width: 45%;
+  }
+  .supply-box {
+    left: -50px;
+  }
+  .cyber-map{
+    top: 186px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .Price-sec {
+    top: 330px;
+  }
+  .benefit-logo{
+    position: relative;
+    top: -133px;
+    left: -10px;
+  }
+  .benefit-bg{
+    width: 69%;
+    height: 100%;
+  }
+  .benefit-box{
+    position: relative;
+    top: -47px;
+    left: 65px;
+    width: 86%;
+  }
+  .cyber-map{
+    top: 223px;
+  }
+  .two-arrow{
+    flex-direction: column;
+  }
+}

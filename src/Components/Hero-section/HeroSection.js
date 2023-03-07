@@ -11,7 +11,7 @@ import videoLg from '../../Assets/Asset 12.png';
 
 const HeroSection = () => {
   return (
-    <div className='hero-sec container text-white flex justify-end relative'>
+    <div className='hero-sec container text-white flex justify-end flex-col relative'>
       <div className="text-side ">
         <img src={TextBg} alt="" />
         <h1 className='text-4xl hero-text'> THE LAST <br />
@@ -23,8 +23,9 @@ const HeroSection = () => {
         <img className="sqr-img" src={SqrImg} alt="" />
         <img className='story-img' src={StoryImg} alt="" />
       </div>
-      <div className="img-side ">
-        <img className='hero-image' src={HeroImg} alt="" />
+
+      <div className="img-side relative ">
+        <img className='hero-image relative' src={HeroImg} alt="" />
         <img className='drop-img' src={DropImg} alt="" />
 
         <div className="video-thumb relative">
@@ -32,8 +33,6 @@ const HeroSection = () => {
         <img className='video-logo' src={videoLg} alt="" />
 
         </div>
-        
-        
       </div>
     </div>
   );

@@ -6,6 +6,9 @@
   font-family: "HallFetica";
   text-align: justify;
 }
+.box-group {
+  padding-top: 80px;
+}
 .title-box {
   position: absolute;
   top: 162px;
@@ -16,4 +19,36 @@
   top: 71%;
   left: 42%;
   font-family: "Orbitron";
+}
+@media only screen and (max-width: 1024px) {
+  .about-sec {
+    top: 70px;
+  }
+  .about-text {
+    bottom: -205px;
+    width: 80%;
+    left: 10%;
+  }
+  .box-group {
+    padding-top: 0;
+  }
+  .all-box {
+    top: 224px;
+  }
+  .title-box {
+    top: 37%;
+    left: 126px;
+  }
+  .mint-logo {
+    top: 178px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .about-sec {
+    top: 232px;
+  }
+  .about-logo{
+    position: relative;
+    top: -162px;
+  }
 }

@@ -7,8 +7,8 @@ import Mint from '../../Assets/Asset 26n.png';
 
 const About = () => {
   return (
-    <div className='container '>
-      <img src={AboutLogo} alt="" />
+    <div className='container relative about-sec'>
+      <img className='about-logo' src={AboutLogo} alt="" />
       <div className='relative'>
         <p className='text-white about-text'>In a world where truth is becoming increasingly difficult to find, translations of the bible are being bought up and manipulated by
           secular forces. With the rise of AI, knowledge is becoming controlled by biased sources with conflicting agendas. But what happens
@@ -18,27 +18,28 @@ const About = () => {
           life, and the only way to salvation. HIS WORDS SHALL NEVER PASS AWAY.</p>
       </div>
 
-      <div className="flex justify-center">
-        <div className="box-group pt-20 relative">
+      <div className="all-box flex justify-center relative flex-wrap">
+        <div className="box-group relative">
           <div className="">
             <img src={Box} alt="" />
             <h1 className='text-5xl  text-white title-box'> Title</h1>
           </div>
         </div>
-        <div className="box-group pt-20 relative">
+        <div className="box-group relative">
           <div className="">
             <img src={Box} alt="" />
             <h1 className='text-5xl  text-white title-box'> Title</h1>
           </div>
         </div>
-        <div className="box-group pt-20 relative">
+        <div className="box-group relative">
           <div className="">
             <img src={Box} alt="" />
             <h1 className='text-5xl  text-white title-box'> Title</h1>
           </div>
         </div>
       </div>
-      <div className="relative flex justify-center">
+
+      <div className="relative mint-logo flex justify-center">
         <img src={Mint} alt="" />
         
         <p className='text-4xl mint-date text-white'>3/23/23</p>

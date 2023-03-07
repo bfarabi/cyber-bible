@@ -4,7 +4,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <div className="navbar container nav-bar justify-between items-center absolute">
+    <div className="navbar lg:absolute container nav-bar justify-between items-center">
       <div className="">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-white lg:hidden">

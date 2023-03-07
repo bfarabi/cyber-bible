@@ -6,7 +6,7 @@ import JoinBox from '../../Assets/Asset 31.png';
 const WhiteList = () => {
   return (
     
-    <div className='relative text-center container '>
+    <div className='relative white-list-sec text-center container '>
       <img className='mx-auto' src={WhitList} alt="" />
       <p style={{fontFamily:"Orbitron"}} className='text-3xl text-white '>Reserve your Whitelist Spot
       </p>
@@ -24,7 +24,7 @@ const WhiteList = () => {
 
       <label className="input-group group-input justify-center ">
         <input type="text" placeholder="" className="input border-gray-300 w-1/3 bg-slate-700 text-white" />
-        <span style={{fontFamily:"ExoRoman"}} className='text-md bg-teal-300 w-1/12 cursor-pointer '>Submit</span>
+        <span style={{fontFamily:"ExoRoman"}} className='text-md bg-teal-300 submit-text cursor-pointer '>Submit</span>
       </label>
 
     </div>

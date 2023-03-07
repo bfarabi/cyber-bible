@@ -4,11 +4,33 @@
   left: 36%;
   letter-spacing: 5px;
 }
- 
 
 .group-input > :first-child {
-border-radius: 0 !important;
+  border-radius: 0 !important;
 }
 .group-input > :last-child {
-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+.submit-text{
+  width: 76px;
+}
+@media only screen and (max-width: 1024px) {
+  .white-list-sec {
+    top: 224px;
+  }
+  .join-text {
+    top: 30%;
+    left: 26%;
+    letter-spacing: 3px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .white-list-sec {
+    top: 374px;
+  }
+  .join-text {
+    top: 30%;
+    left: 17%;
+    letter-spacing: 0;
+  }
 }

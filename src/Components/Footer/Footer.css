@@ -6,3 +6,43 @@
     height: 200px;
   }
    */
+.footer-two-part {
+  position: absolute;
+  top: 160px;
+  left: 10%;
+}
+.social-logo img {
+  width: 30px;
+  height: 30px;
+  margin: 25px 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-img {
+    height: 67vh;
+  }
+  .flex-part {
+    flex-direction: column;
+  }
+  .footer-two-part {
+    position: absolute;
+    top: 146px;
+    left: 8%;
+  }
+  .footer-cyber {
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .footer-two-part {
+    position: absolute;
+    top: 198px;
+    left: 14%;
+  }
+  .footer-right{
+    width: 100%;
+  }
+  .footer-img{
+    height: 55vh;
+  }
+}

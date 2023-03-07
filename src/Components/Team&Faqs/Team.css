@@ -1,0 +1,34 @@
+.single-box {
+  margin: 15px 30px;
+  text-align: center;
+}
+.single-box p {
+  color: rgb(6, 232, 232);
+  font-family: "HallFetica";
+}
+@media only screen and (max-width: 1024px) {
+  .team-container {
+    top: 303px;
+  }
+  .team-group {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  .single-box img {
+    width: 70%;
+  }
+  .faq-area{
+    padding-bottom: 14rem;
+  }
+  .faq-part{
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .team-container {
+    top: 466px;
+  }
+  .faq-area{
+    padding-bottom: 25rem;
+  }
+}
