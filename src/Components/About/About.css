@@ -47,8 +47,17 @@
   .about-sec {
     top: 232px;
   }
-  .about-logo{
+  .about-logo {
     position: relative;
     top: -162px;
+  }
+  .about-text {
+    bottom: -271px;
+    width: 80%;
+    left: 10%;
+  }
+  .mint-logo{
+    top: 173px;
+    left: -29px;
   }
 }

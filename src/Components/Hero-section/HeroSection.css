@@ -64,6 +64,7 @@
     position: absolute;
     top: 56%;
     left: 25%;
+    width: 60%;
   }
   .story-img {
     top: 14%;
@@ -75,15 +76,26 @@
     top: -55px;
   }
   .text-side {
-    top: 49%;
-    left: 7%;
+    top: 52%;
+    left: 17%;
+    width: 65%;
   }
   .story-img{
-    top: 20%;
+    top: 28%;
     left: -23%;
   }
   .video-logo{
     bottom: -8rem;
     right: 26%;
+    width: 36px;
+  }
+  .hero-text{
+    position: absolute;
+    top: -6px;
+    left: 78px;
+    font-family: "ExoRoman";
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }

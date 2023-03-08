@@ -47,7 +47,7 @@ const Price = () => {
               style={{ fontFamily: "ExoRoman" }}
               className="price-text-box justify-center font-semibold flex"
             >
-              <p className="text-8xl text-white mx-1">0.025</p>
+              <p className="text-8xl text-white public-price mx-1">0.025</p>
               <p className=" text-white font-bold mx-1 text-lg">
                 E <br />
                 T <br /> H
@@ -65,10 +65,11 @@ const Price = () => {
 
       {/* benefit area */}
 
-      <div className="relative pt-8 ">
+      <div className="relative  pt-8 benefit-area">
         <img className="mx-auto w-4/5 benefit-bg" src={Benefit} alt="" />
         <img className="benefit-logo" src={benefitLg} alt="" />
-        <div className="benefit-box flex ">
+        
+        <div className="benefit-box  flex ">
           <div className="benefit-left w-2/5">
            <div className="benefit-text">
            <p className="text-cyan-400">

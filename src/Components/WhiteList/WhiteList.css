@@ -26,11 +26,12 @@
 }
 @media only screen and (max-width: 540px) {
   .white-list-sec {
-    top: 374px;
+    top: 384px;
   }
   .join-text {
     top: 30%;
     left: 17%;
     letter-spacing: 0;
+    font-size: 24px;
   }
 }

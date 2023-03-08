@@ -74,8 +74,8 @@
   }
   .benefit-logo{
     position: relative;
-    top: -133px;
-    left: -10px;
+    top: -7rem;
+    left: 2px;
   }
   .benefit-bg{
     width: 69%;
@@ -83,9 +83,9 @@
   }
   .benefit-box{
     position: relative;
-    top: -47px;
-    left: 65px;
-    width: 86%;
+    top: -48px;
+    left: 24px;
+    width: 94%;
   }
   .cyber-map{
     top: 223px;
@@ -93,4 +93,20 @@
   .two-arrow{
     flex-direction: column;
   }
+  .public-box{
+    top: 22%;
+    left: 17%;
+  }
+  .public-price{
+    font-size: 72px;
+  }
+  .benefit-area{
+    overflow: hidden;
+  }
+  .logo-text{
+    position: absolute;
+    top: -24px;
+    left: 22%;
+  }
+  
 }
