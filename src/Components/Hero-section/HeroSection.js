@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
-import HeroImg from '../../Assets/Asset 11.png';
+import HeroImg from '../../Assets/Asset 11n.png';
 import TextBg from '../../Assets/Asset 8.png';
 import DotImg from '../../Assets/Asset 10.png';
 import SqrImg from '../../Assets/Asset 15.png';

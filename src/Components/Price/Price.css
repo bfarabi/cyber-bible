@@ -55,7 +55,7 @@
     position: absolute;
     top: 92px;
     left: 48px;
-    width: 100%;
+    /* width: 100%; */
   }
   .benefit-left,
   .benefit-right {
@@ -64,49 +64,63 @@
   .supply-box {
     left: -50px;
   }
-  .cyber-map{
+  .cyber-map {
     top: 186px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .two-arrow {
+    flex-direction: column;
   }
 }
 @media only screen and (max-width: 540px) {
   .Price-sec {
-    top: 330px;
+    top: 22rem;
   }
-  .benefit-logo{
+  .benefit-logo {
     position: relative;
-    top: -7rem;
-    left: 2px;
+    top: -8rem;
+    left: 4%;
   }
-  .benefit-bg{
+  .benefit-bg {
     width: 69%;
     height: 100%;
   }
-  .benefit-box{
+  .benefit-box {
     position: relative;
     top: -48px;
     left: 24px;
     width: 94%;
   }
-  .cyber-map{
+  .cyber-map {
     top: 223px;
   }
-  .two-arrow{
-    flex-direction: column;
-  }
-  .public-box{
+  
+  .public-box {
     top: 22%;
     left: 17%;
   }
-  .public-price{
+  .public-price {
     font-size: 72px;
   }
-  .benefit-area{
+  .benefit-area {
     overflow: hidden;
   }
-  .logo-text{
+  .logo-text {
     position: absolute;
     top: -24px;
     left: 22%;
   }
-  
+  .logo-text p {
+    font-size: 5rem;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .benefit-logo {
+    position: relative;
+    top: -6rem;
+    left: 4%;
+  }
 }

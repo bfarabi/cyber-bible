@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 1024px) {
   .footer-img {
-    height: 67vh;
+    height: 25em;
   }
   .flex-part {
     flex-direction: column;
@@ -43,10 +43,15 @@
     width: 100%;
   }
   .footer-img{
-    height: 77vh;
+    height: 32em;
   }
   .footer-left{
     width: 100%;
   }
   
+}
+@media only screen and (max-width: 400px) {
+  .footer-two-part {
+    left: 4%;
+  }
 }

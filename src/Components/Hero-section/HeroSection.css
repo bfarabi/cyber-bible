@@ -3,9 +3,13 @@
   top: 238px;
   left: -48px;
 }
+.hero-image {
+  position: relative;
+  top: 30px;
+}
 .hero-text {
   position: absolute;
-  top: 20px;
+  top: 7px;
   left: 145px;
   font-family: "ExoRoman";
   font-weight: 200;
@@ -38,7 +42,7 @@
 }
 .video-logo {
   position: absolute;
-  bottom: 10rem;
+  bottom: 8em;
   right: 33%;
 }
 
@@ -46,8 +50,7 @@
 
 @media only screen and (max-width: 1024px) {
   .hero-image {
-    position: relative;
-    top: -78px;
+    top: -30px;
   }
   .black-img {
     position: absolute;
@@ -57,7 +60,7 @@
   }
   .video-logo {
     position: absolute;
-    bottom: -5rem;
+    bottom: -6rem;
     right: 26%;
   }
   .text-side {
@@ -73,29 +76,39 @@
 }
 @media only screen and (max-width: 540px) {
   .hero-image {
-    top: -55px;
+    top: -25px;
   }
   .text-side {
     top: 52%;
     left: 17%;
     width: 65%;
   }
-  .story-img{
+  .story-img {
     top: 28%;
     left: -23%;
   }
-  .video-logo{
+  .video-logo {
     bottom: -8rem;
     right: 26%;
     width: 36px;
   }
-  .hero-text{
+  .hero-text {
     position: absolute;
-    top: -6px;
+    top: 1em;
     left: 78px;
     font-family: "ExoRoman";
     font-weight: 200;
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+}
+
+@media only screen and (max-width:420px) {
+  .hero-text {
+    top: 1em;
+    line-height: 1.7rem;
+  }
+  .hero-image {
+    top: -20px;
   }
 }

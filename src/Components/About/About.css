@@ -1,6 +1,6 @@
 .about-text {
   position: absolute;
-  bottom: -80px;
+  bottom: -6rem;
   width: 84%;
   left: 120px;
   font-family: "HallFetica";
@@ -22,12 +22,12 @@
 }
 @media only screen and (max-width: 1024px) {
   .about-sec {
-    top: 70px;
+    top: 3rem;
   }
   .about-text {
-    bottom: -205px;
-    width: 80%;
-    left: 10%;
+    bottom: -9rem;
+    width: 90%;
+    left: 6%;
   }
   .box-group {
     padding-top: 0;
@@ -43,6 +43,11 @@
     top: 178px;
   }
 }
+@media only screen and (max-width: 768px) {
+.about-text{
+  bottom: -13rem;
+}
+}
 @media only screen and (max-width: 540px) {
   .about-sec {
     top: 232px;
@@ -52,12 +57,20 @@
     top: -162px;
   }
   .about-text {
-    bottom: -271px;
-    width: 80%;
-    left: 10%;
+    bottom: -160px;
+    width: 83%;
+    left: 8%;
   }
   .mint-logo{
     top: 173px;
     left: -29px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .about-text{
+    bottom: -13em;
+    font-size: 15px;
+    width: 90%;
+    left: 5%;
   }
 }
